@@ -1,0 +1,6 @@
+services:
+  ubuntu:
+    build: .
+    image: case02-ubuntu
+    container_name: case02
+    restart: unless-stopped
